@@ -1,12 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página 3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <style>
+        .carousel-caption h4,
+        .carousel-caption p {
+            text-shadow: 1px 1px black;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <div class="alert alert-primary" role="alert">
+                Actualmente te encuentras en la página 3
+            </div>
+            <button type="button" class="btn btn-danger">
+                <a href="/index.html">Regresar al index</a>
+            </button>
+            <ul>
+                <li><a href="/pagina1.html">Página 1</a></li>
+                <li><a href="/pagina2.html">Página 2</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h1>Tipos de pintura usados en paredes</h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/Temple.jpg" class="d-block w-100" alt="Imagen 1">
+                    <div class="carousel-caption">
+                        <h4>Pintura al Temple</h4>
+                        <p>Es una pintura a base de agua y cola que se caracteriza por su bajo precio y su fácil
+                            aplicación. Tiene un acabado mate y empolvado, y se puede mezclar con pigmentos para crear
+                            diferentes tonos. Sin embargo, tiene algunas desventajas, como su poca resistencia al agua,
+                            al lavado y a la luz. Por eso, se recomienda usarla solo para pintar techos o paredes
+                            interiores que no estén expuestas a la suciedad o la humedad.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/Acrilica.jpg" class="d-block w-100" alt="Imagen 2">
+                    <div class="carousel-caption">
+                        <h4>Pintura acrílica</h4>
+                        <p>Es una pintura similar a la plástica, pero con mayor adherencia y durabilidad. Se puede
+                            aplicar sobre superficies porosas o rugosas, como el yeso o el cemento. Tiene un acabado
+                            mate y uniforme, y es resistente a la humedad y al moho. Es perfecta para pintar fachadas,
+                            garajes o sótanos."</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/Plastica.jpg" class="d-block w-100" alt="Imagen 2">
+                    <div class="carousel-caption">
+                        <h4>Pintura plástica</h4>
+                        <p>La pintura plástica para pared es una excelente opción para decorar y proteger tus
+                            superficies interiores o exteriores. Esta pintura tiene una base acrílica que le confiere
+                            resistencia al agua, al sol y al desgaste. Además, es fácil de aplicar y limpiar, y ofrece
+                            una gran variedad de colores y acabados. Con la pintura plástica para pared, podrás renovar
+                            tu hogar con un estilo personal y duradero.</p>
+                    </div>
+                </div>
+            </div>
+    </main>
 </body>
+
 </html>
