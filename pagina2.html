@@ -1,12 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página 2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <style>
+        .carousel-caption h4,
+        .carousel-caption p {
+            text-shadow: 1px 1px black;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <div class="alert alert-primary" role="alert">
+                Actualmente te encuentras en la página 2
+            </div>
+            <button type="button" class="btn btn-danger">
+                <a href="/index.html">Regresar al index</a>
+            </button>
+            <ul>
+                <li><a href="/pagina1.html">Página 1</a></li>
+                <li><a href="/pagina3.html">Página 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h1>Estatuas de Cristo Gigantes</h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/CDLP.jpeg" class="d-block w-100" alt="Imagen 1">
+                    <div class="carousel-caption">
+                        <h4>Cristo de la Paz, ubicado en Zacatecas</h4>
+                        <p>El Cristo de la Paz de Tabasco, Zacatecas, es una impresionante escultura de 25 metros de
+                            altura que se alza sobre el cerro de La Cruz. Esta obra de arte fue realizada por el
+                            escultor mexicano Humberto Peraza y representa a Jesucristo con los brazos abiertos, como
+                            símbolo de amor y esperanza para el pueblo. El Cristo de la Paz es un atractivo turístico y
+                            religioso que se puede admirar desde varios puntos del municipio y que invita a la reflexión
+                            y la oración. Su inauguración se realizó el 12 de diciembre de 2010, coincidiendo con el día
+                            de la Virgen de Guadalupe, patrona de México.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/CR.jpeg" class="d-block w-100" alt="Imagen 2">
+                    <div class="carousel-caption">
+                        <h4>Cristo Redentor, ubicado en Rio de Janeiro</h4>
+                        <p>El Cristo Redentor es una estatua gigante de Jesús que se encuentra en la cima del cerro
+                            Corcovado, en Río de Janeiro, Brasil. Es uno de los símbolos más famosos del país y del
+                            mundo. Tiene 38 metros de altura y pesa 1145 toneladas. Fue inaugurado en 1931 y desde
+                            entonces recibe millones de visitantes cada año. El Cristo Redentor tiene los brazos
+                            abiertos, como si quisiera abrazar a toda la ciudad. Algunos dicen que también es una forma
+                            de pedir perdón por los pecados de la humanidad. Otros dicen que es una broma de Dios,
+                            porque parece que está diciendo: "¡Mira lo que hiciste!"</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/CDLC.jpeg" class="d-block w-100" alt="Imagen 2">
+                    <div class="carousel-caption">
+                        <h4>Cristo de la Concordia, ubicado en Cochabamba, Bolivia</h4>
+                        <p>text
+                            El Cristo de la Concordia es una estatua gigante de Jesús que se encuentra en la ciudad de
+                            Cochabamba, Bolivia. Tiene una altura de 34,2 metros y pesa 2.200 toneladas. Es el Cristo
+                            más grande de América y el segundo más grande del mundo, después del Cristo Redentor de
+                            Brasil. Su nombre significa "Cristo de la Armonía", pero algunos lo llaman "Cristo de la
+                            Cólera" porque parece que está enojado con la ciudad por su contaminación y su tráfico.
+                            Además, tiene una mirada penetrante que sigue a los visitantes por donde quiera que vayan.
+                            Algunos dicen que es una bendición, otros que es una maldición, pero lo cierto es que nadie
+                            puede ignorarlo.</p>
+                    </div>
+                </div>
+            </div>
+    </main>
 </body>
+
 </html>
